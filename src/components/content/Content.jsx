@@ -28,7 +28,7 @@ const Content = () => {
           <img
             src="/assets/skin.jpg"
             alt="Skincare Products"
-            className="w-full h-auto object-cover"
+            className="w-full max-h-full object-cover"
           />
         </div>
       </div>

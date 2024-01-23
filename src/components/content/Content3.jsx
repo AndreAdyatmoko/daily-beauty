@@ -2,7 +2,7 @@ import React from "react";
 import { Button2 } from "../button/button";
 import { LeftArrow, RightArrow } from "../icons/icons";
 
-const Content2 = () => {
+const Content3 = () => {
   return (
     <div className="py-24 border-t border-gray-500">
       <div className="grid grid-cols-4 gap-4 items-center font-serif text-gray-700">
@@ -58,4 +58,4 @@ const Content2 = () => {
   );
 };
 
-export default Content2;
+export default Content3;
