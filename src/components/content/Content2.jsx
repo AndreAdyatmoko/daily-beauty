@@ -21,7 +21,7 @@ const Content2 = () => {
         </div>
         <div className="border-solid border-2 px-2 border-gray-200 rounded-md">
           <img
-            src="/assets/skin.jpg"
+            src="/assets/baner1.png"
             alt="Skincare Products"
             className="w-full object-cover mt-2 rounded-sm h-96"
           />
@@ -32,9 +32,9 @@ const Content2 = () => {
         </div>
         <div className="border-solid border-2 px-2 border-gray-200 rounded-md">
           <img
-            src="/assets/skin.jpg"
+            src="/assets/baner2.png"
             alt="Skincare Products"
-            className="w-full object-cover mt-2 rounded-sm h-96" 
+            className="w-full object-cover mt-2 rounded-sm h-96"
           />
           <div className="flex items-center justify-between ">
             <p className="text-black font-normal text-lg">Haircare</p>
@@ -43,9 +43,9 @@ const Content2 = () => {
         </div>
         <div className="border-solid border-2 px-2 border-gray-200 rounded-md">
           <img
-            src="/assets/skin.jpg"
+            src="/assets/baner3.png"
             alt="Skincare Products"
-            className="w-full object-cover mt-2 rounded-sm min-h-96"
+            className="w-full object-cover mt-2 rounded-sm h-96"
           />
           <div className="flex items-center justify-between ">
             <p className="text-black font-normal text-lg">Makeup</p>

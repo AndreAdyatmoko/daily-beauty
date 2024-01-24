@@ -17,3 +17,11 @@ export const Button2 = ({ children }) => {
     </div>
   );
 };
+
+export const Button3 = ({ children }) => {
+  return (
+    <div className="bg-white hover:bg-slate-100 text-gray-800 font-normal px-2 border-solid border-2 rounded">
+      {children}
+    </div>
+  );
+};
