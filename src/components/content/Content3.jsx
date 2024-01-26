@@ -58,16 +58,16 @@ const Content3 = () => {
     <div className="py-20 border-t border-gray-500">
       <span className="uppercase text-pink-500">Trending Topics</span>
       <div className="flex flex-row justify-between items-end mb-8">
-        <h1 className="text-5xl font-bold">
+        <h1 className="text-5xl font-bold mt-4">
           Stay Trendy with Our <br /> Latest Insights
         </h1>
         <Button3>See More</Button3>
       </div>
-      <div className="flex flex-wrap gap-12">
+      <div className="flex flex-wrap gap-2">
         {cardData.map((card, index) => (
           <div
             key={index}
-            className="border-solid border-2 px-2 border-gray-200 rounded-md lg:max-w-sm"
+            className="border-solid border-2 px-2 border-gray-200 rounded-md w-full lg:max-w-sm "
           >
             <img
               src={card.imageSrc}
@@ -75,7 +75,7 @@ const Content3 = () => {
               className="w-full object-cover mt-2 rounded-sm"
             />
             <div className="text-wrap">
-              <h2 className="text-3xl my-4 text-wrap">{card.title}</h2>
+              <h2 className="text-3xl my-4 w-full">{card.title}</h2>
               <p>{card.description}</p>
               <div className="flex my-4 items-center justify-between border-t border-gray-300">
                 <p>

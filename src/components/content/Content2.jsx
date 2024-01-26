@@ -12,7 +12,7 @@ const Content2 = () => {
             <RightArrow />
           </div>
           <span className="uppercase text-pink-500">categories</span>
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-5xl font-bold mt-4">
             Dive into <br /> Beauty
           </h1>
           <div className="mt-6">
@@ -53,7 +53,6 @@ const Content2 = () => {
           </div>
         </div>
       </div>
-      <div></div>
     </div>
   );
 };
