@@ -9,7 +9,7 @@ import Content5 from "../components/content/Content5";
 
 const Home = () => {
   return (
-    <div className="container p-8" style={{ width: "1248px", height: "702px" }}>
+    <div className="container px-8" style={{ width: "1248px", height: "702px" }}>
       <Navbar />
       <Content />
       <Content2 />

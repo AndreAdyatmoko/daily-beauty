@@ -23,7 +23,7 @@ const Content5 = () => {
           <div className="mt-6 border border-gray-500 p-1 rounded-md w-2/3 flex justify-end">
             <input
               type="text"
-              placeholder="Your Email"
+              placeholder="Email"
               value={subscribeText}
               onChange={(e) => setSubscribeText(e.target.value)}
               style={{ width: "100%", boxShadow: "none" }}

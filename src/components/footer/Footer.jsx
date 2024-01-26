@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-white text-white p-4">
       <div className="border-t border-gray-500 flex items-center justify-between">
-        <div className="flex items-start flex-col">
+        <div className="flex items-start flex-col cursor-pointer">
           <div className="flex items-center ml-8">
             <IconD />
             <IconB className="mt-2" />
@@ -15,7 +15,7 @@ const Footer = () => {
             <p className="text-pink-500 font-normal text-lg">beauty</p>
           </div>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center cursor-pointer">
           <Facebook />
           <Instagram />
           <Youtube />
